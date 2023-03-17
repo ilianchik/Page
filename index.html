@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/Favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/Favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,700;1,400&family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Pages &mdash; uniquely portable magic</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__container">
+          <a href="#" class="header__logo"
+            ><img src="img/Header/logo.svg" alt="logo-icon"
+          /></a>
+          <div class="header__social-box">
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <img
+                    class="social-img facebook-icon"
+                    src="img/Header/facebook.svg"
+                    alt="facebook-icon"
+                /></a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <img
+                    class="social-img twitter-icon"
+                    src="img/Header/twitter.svg"
+                    alt="twitter-icon"
+                /></a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <img
+                    class="social-img in-icon"
+                    src="img/Header/in.svg"
+                    alt="linkedin-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <nav class="header__nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+              <li class="nav-item dropdown">
+                <button class="nav-dropbtn">
+                  Dropdown
+                  <ion-icon
+                    class="down-icon"
+                    name="chevron-down-outline"
+                  ></ion-icon>
+                </button>
+                <div class="nav__dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#resources" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__cart">
+            <button aria-label="cart" class="cart-icon">
+              <svg
+                class="header__cart-icon"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 1.75H5L7.68 15.14C7.77144 15.6004 8.02191 16.014 8.38755 16.3083C8.75318 16.6026 9.2107 16.759 9.68 16.75H19.4C19.8693 16.759 20.3268 16.6026 20.6925 16.3083C21.0581 16.014 21.3086 15.6004 21.4 15.14L23 6.75H6M10 21.75C10 22.3023 9.55228 22.75 9 22.75C8.44772 22.75 8 22.3023 8 21.75C8 21.1977 8.44772 20.75 9 20.75C9.55228 20.75 10 21.1977 10 21.75ZM21 21.75C21 22.3023 20.5523 22.75 20 22.75C19.4477 22.75 19 22.3023 19 21.75C19 21.1977 19.4477 20.75 20 20.75C20.5523 20.75 21 21.1977 21 21.75Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <div class="cart-value">01</div>
+          </div>
+          <a href="#order" class="header__btn">Order Today</a>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="close-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="wrapper">
+          <div class="hero__container">
+            <div class="hero__content">
+              <p class="hero__subtitle">Welcome to Pages</p>
+              <h1 class="hero__title">Books are uniquely portable magic</h1>
+              <p class="hero__text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
+              <div class="hero__btn-box">
+                <a href="#order" class="order-btn">Order Today </a>
+                <a href="#free" class="demo-btn">Read Free Demo</a>
+              </div>
+              <div class="hero__description-box">
+                <div class="description">
+                  <div class="description-circle"></div>
+                  <p class="description-title">Pages:</p>
+                  <p class="description-text">586pages</p>
+                </div>
+                <div class="description">
+                  <div class="description-circle"></div>
+                  <p class="description-title">Length:</p>
+                  <p class="description-text">10 Hours</p>
+                </div>
+                <div class="description">
+                  <div class="description-circle"></div>
+                  <p class="description-title">Ratings:</p>
+                  <p class="description-text">4.5/5 (305 ratings)</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero__img">
+              <img src="img/Hero/Book.jpg" alt="The Dark Light book" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="books">
+        <div class="wrapper">
+          <h2 class="books__title">Author’s Book Includes</h2>
+          <div class="books__container">
+            <div class="books__book">
+              <img
+                src="img/Books/Book1.jpg"
+                alt="Atomic One's book"
+                class="book-img"
+              />
+              <div class="book-content">
+                <h3 class="book-title">Atomic One’s</h3>
+                <p class="book-text">
+                  Many variations of passages of Lorem Ipsum willing araise
+                  alteration in some form.
+                </p>
+                <div class="book__prop-box">
+                  <div class="prop">
+                    <div class="prop-circle"></div>
+                    <p class="prop-title">Pages:</p>
+                    <p class="prop-text">586pages</p>
+                  </div>
+                  <div class="prop">
+                    <div class="prop-circle"></div>
+                    <p class="prop-title">Length:</p>
+                    <p class="prop-text">10 Hours</p>
+                  </div>
+                </div>
+                <a href="#order" class="book-btn">Order Today</a>
+              </div>
+            </div>
+            <div class="books__book">
+              <img
+                src="img/Books/Book2.jpg"
+                alt="The Dark Light book"
+                class="book-img"
+              />
+              <div class="book-content">
+                <h3 class="book-title">The Dark Light</h3>
+                <p class="book-text">
+                  Many variations of passages of Lorem Ipsum willing araise
+                  alteration in some form.
+                </p>
+                <div class="book__prop-box">
+                  <div class="prop">
+                    <div class="prop-circle"></div>
+                    <p class="prop-title">Pages:</p>
+                    <p class="prop-text">586pages</p>
+                  </div>
+                  <div class="prop">
+                    <div class="prop-circle"></div>
+                    <p class="prop-title">Length:</p>
+                    <p class="prop-text">10 Hours</p>
+                  </div>
+                </div>
+                <a href="#order" class="book-btn">Order Today</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="wrapper">
+          <div class="about__container">
+            <div class="about__img">
+              <img src="img/About/author.png" alt="Author photo" />
+            </div>
+            <div class="about__content">
+              <h2 class="about__title">About Author</h2>
+              <p class="about__text">
+                All the Lorem Ipsum generators on the Internet tend to repeated
+                predefined chunks as necessary, making this the first true value
+                generator on the Internet. It uses a dictionary of over 200
+                Latin words, combined with a handful.
+              </p>
+              <div class="about__author-box">
+                <div class="author-value">
+                  <p class="value-title">02</p>
+                  <p class="value-text">Books Published</p>
+                </div>
+                <div class="author-value">
+                  <p class="value-title">4.5</p>
+                  <p class="value-text">User Reviews</p>
+                </div>
+                <div class="author-value">
+                  <p class="value-title">04</p>
+                  <p class="value-text">Best Seller Awards</p>
+                </div>
+              </div>
+              <div class="about__code-box">
+                <img
+                  src="img/About/qr-code.jpg"
+                  alt="QR code"
+                  class="qr-code"
+                />
+                <div class="code-text">
+                  <p class="code-name">John Abraham , Ph.d</p>
+                  <p class="code-mail">
+                    Mail :
+                    <a href="mailto:johnabraham@gmail.com"
+                      >johnabraham@gmail.com</a
+                    >
+                  </p>
+                  <p class="code-phone">
+                    Phone :
+                    <a href="tel:+21235459000">(+2) 123 545 9000</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="featured">
+        <div class="wrapper">
+          <h2 class="featured__title">Trusted by the Best</h2>
+          <div class="featured__container">
+            <div class="featured__element">
+              <img
+                src="img/Featured/Amazen.png"
+                alt="Amazen logo"
+                class="featured__img featured__amazen"
+              />
+              <div class="featured__element-box">
+                <h3 class="featured__name">Amazen Corp</h3>
+                <p class="featured__text">
+                  A long established fact that a who looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="featured__element">
+              <img
+                src="img/Featured/Megan.png"
+                alt="Megan Books logo"
+                class="featured__img featured__megan"
+              />
+              <div class="featured__element-box">
+                <h3 class="featured__name">Megan Books</h3>
+                <p class="featured__text">
+                  A long established fact that a who looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="featured__element">
+              <img
+                src="img/Featured/Gan.png"
+                alt="Los Books logo"
+                class="featured__img featured__gan"
+              />
+              <div class="featured__element-box">
+                <h3 class="featured__name">Los Books</h3>
+                <p class="featured__text">
+                  A long established fact that a who looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="featured__element">
+              <img
+                src="img/Featured/Urban.png"
+                alt="Urban Lib logo"
+                class="featured__img featured__urban"
+              />
+              <div class="featured__element-box">
+                <h3 class="featured__name">Urban Lib</h3>
+                <p class="featured__text">
+                  A long established fact that a who looking at its layout.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="order" class="order">
+        <div class="wrapper">
+          <div class="order__container">
+            <div class="order__content">
+              <h2 class="order__title">Get Book Copy Today!</h2>
+              <p class="order__text">
+                This the first true value generator on the Internet. It uses
+                alphas dictionary of over 200 Latin words.
+              </p>
+              <button aria-label="buy product" class="order__btn">
+                Order Today
+              </button>
+            </div>
+            <div class="order__img">
+              <img src="img/Order/Order.png" alt="A book and a mug of coffee" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="wrapper">
+          <h2 class="skills__title">What will you learn?</h2>
+          <div class="skills__container">
+            <div class="skills__content">
+              <div class="skills__content-item">
+                <div class="item-number">01</div>
+                <p class="item-text">
+                  Use HDFS & Map Reduce for storing & analyzing data at scale.
+                </p>
+              </div>
+              <div class="skills__content-item">
+                <div class="item-number">02</div>
+                <p class="item-text">
+                  Consume streaming data using Spark Streaming, Flink, and
+                  Storm.
+                </p>
+              </div>
+              <div class="skills__content-item">
+                <div class="item-number">03</div>
+                <p class="item-text">
+                  Choose an appropriate data storage technology for your
+                  application
+                </p>
+              </div>
+              <div class="skills__content-item">
+                <div class="item-number">04</div>
+                <p class="item-text">
+                  Analyze non-relational data using HBase, Cassandra, and
+                  MongoDB.
+                </p>
+              </div>
+            </div>
+            <div class="skills__img">
+              <img src="img/Skills/skills.png" alt="Girl reading book" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="chapters">
+        <div class="wrapper">
+          <h2 class="chapters__title">The Chapter Includes</h2>
+
+          <div class="chapters__grid-container">
+            <div class="chapters__item">
+              <h3 class="chapters__name">
+                Chapter - 01 &nbsp; Get Started Intro
+              </h3>
+              <p class="chapters__text">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="chapters__prop-box">
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text"><span> Pages: </span>85pages</p>
+                </div>
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text">
+                    <span>Length : </span>1 Hour 15 mins
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="chapters__item">
+              <h3 class="chapters__name">
+                Chapter - 02 &nbsp; Create a Massive Content
+              </h3>
+              <p class="chapters__text">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="chapters__prop-box">
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text"><span> Pages : </span> 85pages</p>
+                </div>
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text">
+                    <span>Length : </span>1 Hour 15 mins
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="chapters__item">
+              <h3 class="chapters__name">
+                Chapter - 03 &nbsp; Maintaining the Creative Arcs
+              </h3>
+              <p class="chapters__text">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="chapters__prop-box">
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text"><span> Pages :</span> 85pages</p>
+                </div>
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text">
+                    <span>Length : </span>1 Hour 15 mins
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="chapters__item">
+              <h3 class="chapters__name">Chapter - 04 &nbsp; The Conclusion</h3>
+              <p class="chapters__text">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="chapters__prop-box">
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text"><span> Pages :</span> 85pages</p>
+                </div>
+                <div class="chapters__prop-item">
+                  <div class="prop__item-circle"></div>
+                  <p class="prop__item-text">
+                    <span>Length : </span>1 Hour 15 mins
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#free" class="chapters__btn">Start a 15-Days Free Trail</a>
+          <p class="chapters__btn-description">
+            Short description about each chapter
+          </p>
+          <p class="chapters__btn-contacts">
+            <a href="#footer">Have any questions?</a> Contact us
+          </p>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="wrapper">
+          <div class="testimonials__container">
+            <div class="testimonials__content">
+              <h2 class="testimonials__title">
+                What Readers Say About the Book
+              </h2>
+              <p class="testimonials__text">
+                If you are going to use a passage of Lorem Ipsum, you need to be
+                sure there isn't anything embarrassing hidden in the middle of
+                text. All the Lorem Ipsum generators.
+              </p>
+              <div class="testimonials__rating-box">
+                <img
+                  src="img/Testimonials/Rate.svg"
+                  alt="Rating 4.5/5 "
+                  class="testimonials__rating-img"
+                />
+                <span>(4.8/5)</span>
+              </div>
+              <p class="testimonials__rating-text">Overall Customer Ratings</p>
+            </div>
+            <div class="testimonials__cards">
+              <div class="testimonials__card-1 testimonials__card--using">
+                <div class="card__header">
+                  <img
+                    src="img/Testimonials/card-1.png"
+                    alt="A photo of a man"
+                    class="card__img"
+                  />
+                  <div class="card__header-rating">
+                    <p class="card__header-name">Martin Philips</p>
+                    <img
+                      src="img/Testimonials/Rate.svg"
+                      alt="Rating 4.5/5"
+                      class="card__header-score"
+                    />
+                  </div>
+                </div>
+                <blockquote class="card__quote">“ Awesome Impact ”</blockquote>
+                <p class="card__text">
+                  All the Lorem Ipsum generators on the Internet tend to repeat
+                  willings predefined chunks value.
+                </p>
+              </div>
+              <div class="testimonials__card-2 testimonials__card--using">
+                <div class="card__header">
+                  <img
+                    src="img/Testimonials/card-2.png"
+                    alt="A photo of a woman"
+                    class="card__img"
+                  />
+                  <div class="card__header-rating">
+                    <p class="card__header-name">James Anderson</p>
+                    <img
+                      src="img/Testimonials/Rate.svg"
+                      alt="Rating 4.5/5"
+                      class="card__header-score"
+                    />
+                  </div>
+                </div>
+                <blockquote class="card__quote">
+                  “ Mind Blowing Words ”
+                </blockquote>
+                <p class="card__text">
+                  All the Lorem Ipsum generators on the Internet tend to repeat
+                  willings predefined chunks value.
+                </p>
+              </div>
+              <div class="testimonials__card-3 testimonials__card--using">
+                <div class="card__header">
+                  <img
+                    src="img/Testimonials/card-3.png"
+                    alt="A photo of a man"
+                    class="card__img"
+                  />
+                  <div class="card__header-rating">
+                    <p class="card__header-name">Christina Louis</p>
+                    <img
+                      src="img/Testimonials/Rate.svg"
+                      alt="Rating 4.5/5"
+                      class="card__header-score"
+                    />
+                  </div>
+                </div>
+                <blockquote class="card__quote">
+                  “ Great Books Collections ”
+                </blockquote>
+                <p class="card__text">
+                  All the Lorem Ipsum generators on the Internet tend to repeat
+                  willings predefined chunks value.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="resources" class="resources">
+        <div class="wrapper">
+          <div class="resources__title">Articles & Resources</div>
+          <div class="resources__container">
+            <div class="resources__card">
+              <img
+                src="img/Resources/card-1.jpg"
+                alt="A woman reads a book"
+                class="resources__card-img"
+              />
+              <div class="resources__card-content">
+                <h3 class="resources__card-title">
+                  The energy efficiency offers hydrotherapy or swim
+                </h3>
+                <p class="resources__card-text">
+                  The point of using Lorem Ipsum hiter of that using making it
+                  look like others readable will get end.
+                </p>
+                <div class="resources__card-footer">
+                  <a href="#" class="resources__footer-left">Read more</a>
+                  <p class="resources__footer-right">Author - 23.05.2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="resources__card">
+              <img
+                src="img/Resources/card-2.jpg"
+                alt="A piece of paper with a text and a pencil"
+                class="resources__card-img"
+              />
+              <div class="resources__card-content">
+                <h3 class="resources__card-title">
+                  Release of Letraset sheets tools containing passages
+                </h3>
+                <p class="resources__card-text">
+                  The point of using Lorem Ipsum hiter of that using making it
+                  look like others readable will get end.
+                </p>
+                <div class="resources__card-footer">
+                  <a href="#" class="resources__footer-left">Read more</a>
+                  <p class="resources__footer-right">Author - 23.05.2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="resources__card">
+              <img
+                src="img/Resources/card-3.jpg"
+                alt="A woman reads a book"
+                class="resources__card-img"
+              />
+              <div class="resources__card-content">
+                <h3 class="resources__card-title">
+                  The energy efficiency offers hydrotherapy or swim
+                </h3>
+                <p class="resources__card-text">
+                  The point of using Lorem Ipsum hiter of that using making it
+                  look like others readable will get end.
+                </p>
+                <div class="resources__card-footer">
+                  <a href="#" class="resources__footer-left">Read more</a>
+                  <p class="resources__footer-right">Author - 23.05.2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="free" class="free">
+        <div class="wrapper">
+          <div class="free__content">
+            <div class="free__text-box">
+              <h2 class="free__title">Read a free chapter</h2>
+              <p class="free__text">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+            </div>
+            <form class="free__form" name="subscribe">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email id..."
+                required
+              />
+              <button class="free__btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <div class="wrapper">
+        <div class="footer__container">
+          <div class="footer__social">
+            <img class="footer__logo" src="img/Footer/logo.svg" alt="logo" />
+            <ul class="footer__list-social">
+              <li class="footer__social-element">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="img/Footer/fb.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon footer__fb"
+                /></a>
+              </li>
+              <li class="footer__social-element">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="img/Footer/tw.svg"
+                    alt="twitter logo"
+                    class="footer__social-icon footer__tw"
+                /></a>
+              </li>
+              <li class="footer__social-element">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="img/Footer/in.svg"
+                    alt="linkedin logo"
+                    class="footer__social-icon footer__in"
+                /></a>
+              </li>
+              <li class="footer__social-element">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="img/Footer/insta.svg"
+                    alt="instagram logo"
+                    class="footer__social-icon footer__insta"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3 class="footer__col-title">Explore</h3>
+            <ul class="footer__col-list">
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Home</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">About Us </a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Services </a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Appointments</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Blog</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3 class="footer__col-title">Utility Pages</h3>
+            <ul class="footer__col-list">
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Start here</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Style guide</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">404 not found</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Password protected</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Licenses</a>
+              </li>
+              <li class="col__list-element">
+                <a href="#" class="col__list-link">Changelog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__contacts">
+            <h3 class="footer__col-title">Keep in Touch</h3>
+            <div class="footer__contacts-box contacts__box-adress">
+              <p class="contacts__box-left contacts__adress">Address&nbsp;:</p>
+              <p class="contacts__box-right contacts__adress-text">
+                24A Kingston St, Los Vegas NC 28202, USA.
+              </p>
+            </div>
+            <div class="footer__contacts-box contacts__box-mail">
+              <p class="contacts__box-left contacts__mail">Mail&nbsp;:</p>
+              <a
+                href="mailto:support@doctors.com"
+                class="contacts__box-right contacts__mail-text"
+              >
+                support@doctors.com
+              </a>
+            </div>
+            <div class="footer__contacts-box contacts__box-tel">
+              <p class="contacts__box-left contacts__tel">Phone&nbsp;:</p>
+              <a
+                href="tel:+221234567900"
+                class="contacts__box-right contacts__tel-text"
+              >
+                (+22) 123 - 4567 - 900
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__down">
+          <p class="footer__dowm-text">
+            <span class="footer__coppy">©</span>Drafted by
+            <span class="footer__down-white">Victorflow</span> - Powered by
+            <span class="footer__down-white">Webflow</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
